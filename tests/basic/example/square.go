@@ -1,5 +1,7 @@
 package math
 
-func Square(m int) int {
-	return m * m
+import "fmt"
+
+func Square(m int) {
+	fmt.Println(m * m)
 }
